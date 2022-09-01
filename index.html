@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="floor" id="floor-4">
+        <div class="floor__content"></div>
+    </section>
+    <section class="floor" id="floor-3">
+        <div class="floor__content"></div>
+    </section>
+    <section class="floor" id="floor-2">
+        <div class="floor__content"></div>
+    </section>
+    <section class="floor" id="floor-1">
+        <div class="floor__content"></div>
+    </section>
+    <section class="floor" id="floor-0">
+        <div class="floor__content"></div>
+    </section>
+</body>
+<style>
+    /* commonality */
+    body {
+        margin: 0;
+    }
+
+    /* BEM (a naming convention) */
+
+
+    .floor {
+        height: 300px;
+        background: orange;
+        display: flex;
+        justify-content: center;
+    }
+
+    .floor__content {
+        width: 600px;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.4);
+    }
+
+    #floor-0 {
+        background: hsl(000, 90%, 50%);
+        height: 123px;
+    }
+
+    #floor-1 {
+        background: hsl(100, 90%, 50%);
+        height: 100px;
+    }
+
+    #floor-2 {
+        background: hsl(200, 90%, 50%);
+        height: 200px;
+    }
+
+    #floor-3 {
+        background: hsl(300, 90%, 50%);
+        height: 300px;
+    }
+
+
+    #floor-4 {
+        background: hsl(400, 90%, 50%);
+        height: 400px;
+    }
+</style>
+
+
+</html>
